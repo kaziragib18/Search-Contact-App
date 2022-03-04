@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 class AddContact extends React.Component {
   state = {
     name: "",
@@ -12,14 +12,18 @@ class AddContact extends React.Component {
       alert("All the fields are mandatory!");
       return;
     }
-    console.log(this.state);
+    // console.log(this.state);
     this.props.addContactHandler(this.state);
     this.setState({ name: "", email: "" });
+    console.log(this.props);
+    this.props.history.push('/');
   };
   render() {
     return (
       <div className="ui main">
-        <h2>Add Contact</h2>
+        <h2>Add Contact
+          <Link style={{ marginLeft: "20px" }} to="/"><button className="ui button blue">All Contact</button></Link>
+        </h2>
         <form className="ui form" onSubmit={this.add}>
           <div className="field">
             <label>Name</label>
@@ -43,7 +47,7 @@ class AddContact extends React.Component {
           </div>
           <button className="ui button blue">Add</button>
         </form>
-      </div>
+      </div >
     );
   }
 }
