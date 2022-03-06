@@ -1,0 +1,34 @@
+{
+  "contacts": [
+    {
+      "id": "c4d4e21c-d88b-42f3-9562-27c1c7c09b33",
+      "name": "Kazi Md. Ragib",
+      "email": "kaziragib@test.com"
+    },
+    {
+      "id": "fc6977f5-9e5c-458d-bad5-aad23a65b741",
+      "name": "Sabit Ali khan",
+      "email": "sabit@gmail.com"
+    },
+    {
+      "id": "f975aa2c-c518-458e-86f4-ed2afaccd591",
+      "name": "Rowshan Ara",
+      "email": "Rowshan@test.com"
+    },
+    {
+      "id": "99dae58e-58ff-4a88-859c-5bdb426686b3",
+      "name": "Raisa Taraman",
+      "email": "Raisa@test.com"
+    },
+    {
+      "id": "30465fd1-c752-4637-911d-ad411c2cd1c4",
+      "name": "Fairooz Shaira",
+      "email": "fairooz@test.com"
+    },
+    {
+      "id": "c871619d-7be9-45d9-ac2a-68b93b20339f",
+      "name": "kamal Hasan",
+      "email": "Hasan@test.com"
+    }
+  ]
+}
